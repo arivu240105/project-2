@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# FAISS Vector DB Directory
+vector_db/
+
+# App Logs
+logs/
+*.log
+
+# Data uploads, temp files, and exports
+data/uploaded_files/
+data/exports/
+data/temp_repos/
+data/evaluation_history.json
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
+
+# Disabled Multi-page files
+pages_disabled/
+
+.streamlit/secrets.toml
