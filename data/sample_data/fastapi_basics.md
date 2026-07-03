@@ -61,6 +61,13 @@ async def common_parameters(q: str = None, skip: int = 0, limit: int = 10):
 async def read_items(commons: dict = Depends(common_parameters)):
     return commons
 ```
-
+ **Fast**: Very high performance, on par with NodeJS and Go (thanks to Starlette and Pydantic). One of the fastest Python frameworks available.
+- **Fast to code**: Increase the speed to develop features by about 200% to 300%.
+- **Fewer bugs**: Reduce about 40% of developer induced errors.
+- **Intuitive**: Great editor support. Completion everywhere. Less time debugging.
+- **Easy**: Designed to be easy to use and learn. Less time reading documentation.
+- **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
+- **Robust**: Get production-ready code. With automatic interactive documentation.
+- **Standards-based**: Based on (and fully compatible w
 Using `Depends(common_parameters)` tells FastAPI to execute `common_parameters` and inject its return value into the `commons` parameter of the path operation.
 This reduces code duplication and makes database connection sessions or authentication checks easy to write and share.
