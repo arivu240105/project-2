@@ -104,7 +104,17 @@ st.markdown("""
             .main-header {
                 font-size: 1.8rem !important;
                 text-align: center !important;
-            }
+        rder-left: 4px solid #8b5cf6;
+            padding: 0.8rem;
+            border-radius: 4px;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+        .citation-box {
+            background-color: rgba(59, 130, 246, 0.05);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+            border-radius: 8px;
+            padding: 0.8rem;    }
             .subheader {
                 font-size: 0.9rem !important;
                 text-align: center !important;
