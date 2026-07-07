@@ -120,15 +120,7 @@ st.markdown("""
                 text-align: center !important;
                 margin-bottom: 1rem !important;
             }
-            .metric-card {
-                padding: 0.6rem !important;
-                margin-bottom: 0.4rem !important;
-                border-radius: 8px !important;
-            }
-            .metric-value {
-                font-size: 1.4rem !important;
-                margin-bottom: 0.1rem !important;
-            }
+            
             .metric-label {
                 font-size: 0.65rem !important;
                 letter-spacing: 0.5px !important;
