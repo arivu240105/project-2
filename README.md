@@ -1,6 +1,4 @@
-# DevDocs RAG Pro 🚀
-
-**DevDocs RAG Pro** is an internship-grade, multi-source developer documentation assistant powered by Retrieval-Augmented Generation (RAG). It enables developers to ingest, index, search, and converse with local PDFs, text/markdown files, website URLs, and entire GitHub repositories. this can be create an interaction among the people
+Projct 2 was a differ from rest of all projectsis an internship-grade, multi-source developer documentation assistant powered by Retrieval-Augmented Generation (RAG). It enables developers to ingest, index, search, and converse with local PDFs, text/markdown files, website URLs, and entire GitHub repositories. this can be create an interaction among the people
 
 Built with Python, Streamlit, LangChain, FAISS, and Groq API, the platform includes advanced hybrid search pipelines, Cross-Encoder reranking, context compression, real-time citation matching, and dynamic response expertise levels (Expert, Beginner, ELI5).
 
