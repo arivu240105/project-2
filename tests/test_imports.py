@@ -43,21 +43,7 @@ def test_imports():
         print("[OK] src.retrieval.retriever imported successfully.")
         
         from src.retrieval.reranker import CrossEncoderReranker
-        print("[OK] src.retrieval.reranker imported successfully.")
-        
-        from src.retrieval.compressor import ContextCompressor
-        print("[OK] src.retrieval.compressor imported successfully.")
-        
-        from src.llm.groq_client import GroqClient
-        print("[OK] src.llm.groq_client imported successfully.")
-        
-        from src.utils.evaluator import RAGEvaluator
-        print("[OK] src.utils.evaluator imported successfully.")
-        
-        print("\nAll local code modules imported successfully without errors!")
-        return True
-    except Exception as e:
-        print(f"\n[FAIL] Import test failed: {e}", file=sys.stderr)
+      led: {e}", file=sys.stderr)
         return False
 
 if __name__ == "__main__":
