@@ -13,7 +13,7 @@ Built with Python, Streamlit, LangChain, FAISS, and Groq API, the platform inclu
 - **🔄 Advanced Hybrid RAG Pipeline**:
   - **Embedding Generation**: Local vectorization with `BAAI/bge-small-en-v1.5`.
   - **Hybrid Search**: Combines semantic dense retrieval (FAISS) and lexical keyword matching (BM25) using reciprocal rank fusion (RRF).
-  - **Cross-Encoder Reranking**: Re-evaluates top 20 retrieved chunks using `cross-encoder/ms-marco-MiniLM-L-6-v2` to select the top 5 most relevant context pieces.
+  - **Cross-Encoder Reranking**: Re-evaluates top 20 retrieved chunks usinng `cross-encoder/ms-marco-MiniLM-L-6-v2` to select the top 5 most relevant context pieces.
   - **Context Compression**: Deduplicates repetitive sentences and truncates content blocks to keep the prompt clear and context-dense.
 - **🧠 Advanced Conversational Orchestration**:
   - **Groq LLMs**: High-performance open models like Llama 3.3.
