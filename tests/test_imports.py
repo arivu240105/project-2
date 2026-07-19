@@ -17,6 +17,21 @@ def test_imports():
         from src.ingestion.parser import DocParser
         print("[OK] src.ingestion.parser imported s
     
+def
+def
+def
+def test_imports():
+    print("Testing module imports...")
+       try:
+        from src.utils.config import DATA_DIR, VECTOR_DB_DIR
+        print("[OK] src.utils.config imported successfully.")
+        
+        from src.utils.logger import logger
+        print("[OK] src.utils.logger imported successfully.")
+        
+        from src.ingestion.parser import DocParser
+        print("[OK] src.ingestion.parser imported s
+
     try:
         from src.utils.config import DATA_DIR, VECTOR_DB_DIR
         print("[OK] src.utils.config imported successfully.")
