@@ -16,8 +16,7 @@ def test_imports():
         
         from src.ingestion.parser import DocParser
         print("[OK] src.ingestion.parser imported s
-    
-def
+    def
 def
 def
 def test_imports():
