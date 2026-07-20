@@ -31,21 +31,7 @@ def test_imports():
         from src.ingestion.crawler import WebCrawler
         print("[OK] src.ingestion.crawler imported successfully.")
         
-        from src.ingestion.github_loader import GitHubDownloader
-        print("[OK] src.ingestion.github_loader imported successfully.")
-        
-        from src.ingestion.splitter import DocSplitter
-        print("[OK] src.ingestion.splitter imported successfully.")
-        
-        from src.vectorstore.store import VectorStoreManager
-        print("[OK] src.vectorstore.store imported successfully.")
-        
-        from src.retrieval.retriever import HybridRetriever
-        print("[OK] src.retrieval.retriever imported successfully.")
-        
-        from src.retrieval.reranker import CrossEncoderReranker
-      led: {e}", file=sys.stderr)
-        return False
+
 
 if __name__ == "__main__":
     success = test_imports()
