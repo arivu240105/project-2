@@ -23,12 +23,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st.set_page_config(
-    page_title="DevDocs RAG Pro",
-    page_icon="🚀",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-)
+
 # 2. Premium Theme CSS injection
 st.markdown("""
     <style>
