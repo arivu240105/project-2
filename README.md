@@ -23,7 +23,7 @@ Built with Python, Streamlit, LangChain, FAISS, and Groq API, the platform inclu
     - *Beginner*: Simple terms with comments on each line.
     - *ELI5*: Metric-driven metaphors, zero jargon.
   - **Citation Attribution**: Every answer links back to its exact file/page/URL block.
-  - **Follow-up Suggestions**: Auto-generates 3 relevant followup prompts.
+  
 - **📊 Analytics & Pipeline Debugging**:
   - **Visual Ingestion Metrics**: Monitor indexed document distributions and size metrics.
   - **RAG Quality Evaluation**: Evaluates Groundedness/Faithfulness, Search Precision, and Answer Relevance.
