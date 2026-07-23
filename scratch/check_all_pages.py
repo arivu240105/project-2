@@ -12,3 +12,5 @@ for idx, page in enumerate(doc):
         all_scanned = False
 print(f"Are all pages scanned (no text objects)? {all_scanned}")
 
+import pypdfium2 as pdfium
+from pathlib import Path
