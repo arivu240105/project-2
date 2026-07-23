@@ -733,4 +733,10 @@ with tab_db_manage:
             st.error(f"Wipe failed: {e}")
 
 st.markdown("---")
+st.set_page_config(
+    page_title="DevDocs RAG Pro",
+    page_icon="🚀",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
 st.markdown("<p style='text-align: center; color: #6b7280; font-size: 0.85rem;'>DevDocs RAG Pro • Portfolio-Grade AI Engineering</p>", unsafe_allow_html=True)
