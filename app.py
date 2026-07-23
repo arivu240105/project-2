@@ -16,12 +16,7 @@ from src.utils.logger import logger
 from src.utils.config import VECTOR_DB_DIR, DATA_DIR
 from src.ingestion.parser import
 # 1. Page Configuration
-st.set_page_config(
-    page_title="DevDocs RAG Pro",
-    page_icon="🚀",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-)
+
 
 # 2. Premium Theme CSS injection
 st.markdown("""
