@@ -53,11 +53,7 @@ st.markdown("""
             margin-bottom: 0.2rem;
             text-align: left;
         }
-        .subheader {
-            color: #9ca3af;
-            font-size: 1.1rem;
-            margin-bottom: 1.5rem;
-            font-weight: 400;
+        
         }
         .metric-card {
             background: rgba(255, 255, 255, 0.03);
