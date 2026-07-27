@@ -13,8 +13,7 @@ from src.llm impessor
 from src.llm import GroqClient
 from src.utils.evaluator import RAGEvaluator
 from src.utils.logger import logger
-from src.utils.config import VECTOR_DB_DIR, DATA_DIR
-from src.ingestion.parser import
+
 # 1. Page Configuration
 st.set_page_config(
     page_title="DevDocs RAG Pro",
