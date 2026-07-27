@@ -66,10 +66,7 @@ st.markdown("""
             -webkit-backdrop-filter: blur(5px);
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
-        .metric-card:hover {
-            transform: translateY(-3px);
-            border-color: rgba(59, 130, 246, 0.5);
-        }
+        
         .metric-value {
             font-size: 2.2rem;
             font-weight: 700;
