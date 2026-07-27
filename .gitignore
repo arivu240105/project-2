@@ -24,11 +24,7 @@ vector_db/
 logs/
 *.log
 
-# Data uploads, temp files, and exports
-data/uploaded_files/
-data/exports/
-data/temp_repos/
-data/evaluation_history.json
+
 
 
 
