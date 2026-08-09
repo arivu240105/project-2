@@ -30,20 +30,4 @@ try:
 except Exception as e:
     print(f"pdfminer failed: {e}")
 
-print("\n--- Testing pypdfium2 ---")
-try:
-    import pypdfium2 as pdfium
-    doc = pdfium.PdfDocument(str(pdf_path))
-    print(f"pypdfium2 pages: {len(doc)}")
-    for idx in range(min(5, len(doc))):
-        page = doc[idx]
-        textpage = page.get_textpage()
-        text = textpage.get_text_range()
-        print(f"Page {idx+1} text length: {len(text) if text else 0}")
-        if text:
-            # clean null chars often returned by pdfium
-            text = text.replace("\x00", "").strip()
-            print(f"Page {idx+1} text length clean: {len(text)}")
-            print(f"Page {idx+1} snippet: {repr(text[:200])}")
-except Exception as e:
-    print(f"pypdfium2 failed: {e}")
+
