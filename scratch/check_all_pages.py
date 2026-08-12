@@ -6,5 +6,8 @@ doc = pdfium.PdfDocument(str(pdf_path))
 all_scanned = True
 
 
+doc = pdfium.PdfDocument(str(pdf_path))
+all_scanned = True
+
 
 
